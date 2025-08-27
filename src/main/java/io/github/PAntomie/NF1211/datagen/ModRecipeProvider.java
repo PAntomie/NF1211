@@ -1,4 +1,4 @@
-package com.example.examplemod.datagen;
+package io.github.PAntomie.NF1211.datagen;
 
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;

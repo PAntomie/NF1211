@@ -1,7 +1,7 @@
-package com.example.examplemod;
+package io.github.PAntomie.NF1211;
 
-import com.example.examplemod.blocks.ModBlocks;
-import com.example.examplemod.items.ModItems;
+import io.github.PAntomie.NF1211.blocks.ModBlocks;
+import io.github.PAntomie.NF1211.items.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -19,12 +19,12 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
-@Mod(ExampleMod.MODID)
-public class ExampleMod {
-    public static final String MODID = "examplemod";
+@Mod(NF1211.MODID)
+public class NF1211 {
+    public static final String MODID = "nf1211";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public ExampleMod(IEventBus modEventBus, ModContainer modContainer) {
+    public NF1211(IEventBus modEventBus, ModContainer modContainer) {
         modEventBus.addListener(this::commonSetup);
         NeoForge.EVENT_BUS.register(this);
 

@@ -1,7 +1,7 @@
-package com.example.examplemod.blocks;
+package io.github.PAntomie.NF1211.blocks;
 
-import com.example.examplemod.ExampleMod;
-import com.example.examplemod.items.ModItems;
+import io.github.PAntomie.NF1211.NF1211;
+import io.github.PAntomie.NF1211.items.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -13,10 +13,10 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
-            DeferredRegister.createBlocks(ExampleMod.MODID);
+            DeferredRegister.createBlocks(NF1211.MODID);
 
     // vvv - Start add new blocks
-
+    
     // ^^^
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

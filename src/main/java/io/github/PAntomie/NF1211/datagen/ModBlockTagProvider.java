@@ -1,6 +1,6 @@
-package com.example.examplemod.datagen;
+package io.github.PAntomie.NF1211.datagen;
 
-import com.example.examplemod.ExampleMod;
+import io.github.PAntomie.NF1211.NF1211;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -11,7 +11,7 @@ import java.util.concurrent.CompletableFuture;
 
 public class ModBlockTagProvider extends BlockTagsProvider {
     public ModBlockTagProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, ExistingFileHelper existingFileHelper) {
-        super(output, lookupProvider, ExampleMod.MODID, existingFileHelper);
+        super(output, lookupProvider, NF1211.MODID, existingFileHelper);
     }
 
     @Override

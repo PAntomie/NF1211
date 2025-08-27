@@ -1,6 +1,6 @@
-package com.example.examplemod.datagen;
+package io.github.PAntomie.NF1211.datagen;
 
-import com.example.examplemod.ExampleMod;
+import io.github.PAntomie.NF1211.NF1211;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
@@ -10,7 +10,7 @@ import org.jetbrains.annotations.NotNull;
 
 public class ModBlockStateProvider extends BlockStateProvider {
     public ModBlockStateProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
-        super(output, ExampleMod.MODID, existingFileHelper);
+        super(output, NF1211.MODID, existingFileHelper);
     }
 
     @Override

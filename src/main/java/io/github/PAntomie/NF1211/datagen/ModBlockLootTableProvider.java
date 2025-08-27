@@ -1,6 +1,6 @@
-package com.example.examplemod.datagen;
+package io.github.PAntomie.NF1211.datagen;
 
-import com.example.examplemod.blocks.ModBlocks;
+import io.github.PAntomie.NF1211.blocks.ModBlocks;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.loot.BlockLootSubProvider;
