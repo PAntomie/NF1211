@@ -16,7 +16,7 @@ public class ModBlocks {
             DeferredRegister.createBlocks(NF1211.MODID);
 
     // vvv - Start add new blocks
-    
+
     // ^^^
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
